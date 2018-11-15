@@ -1,0 +1,8 @@
+Moduł WiFi ESP8266 + NodeMCU v3
+
+W porównaniu do innych modułów wifi, używających tego samego chipa (np. ESP 8266 - 12E, ESP 8266 - 01), jest on najczęściej używany przez hobbystów. To sprawia, że łatwo jest natrafić na oprogramowanie dla tego mikrokontrolera, a także dużo łatwiej jest znaleźć rozwiązania problemów na które można się natknąć. Ma on wgrane oprogramowanie NodeMCU, które umożliwia programowanie w języku Lua. Moduł wyposażony jest również w konwerter USB-UART, dzięki któremu możemy podłączyć płytkę do komputera uzywając zwykłego kabla USB - micro USB. Ponadto ESP - 01 ma dość małą ilość pinów.
+
+Mikrokontroler zawiera wbudowaną antenę i moduł Wi-Fi, przez co bardziej nadaje się do zadania niż Arduino, do którego ten moduł trzeba by było dołączyć.
+
+Innym, dobrym kandydatem były moduły oparte o ESP - 32. Ma on wbudowany Bluetooth, czujnik temperatury i posiada więcej pinów, jednak jest przez to droższy i rzadziej używany przez amatorów, co z kolei wiąże się z mniejszą ilością porad i tutoriali.
+
