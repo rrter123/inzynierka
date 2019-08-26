@@ -19,6 +19,7 @@ function get_temperature()
           timeout = timeout-1
           t:start()
         else
+          t:unregister()
           return temperature
         end
     end)

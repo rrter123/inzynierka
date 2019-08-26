@@ -26,7 +26,7 @@ local wifi_setup = {}
 wifi.setmode(wifi.STATION)
 wifi.sta.clearconfig() 
 
-function wifi_setup.setup_wifi(after_connect)
+function wifi_setup.setup_wifi()
   
   station_cfg={}
   station_cfg.ssid=settings.wifi_name
@@ -39,7 +39,4 @@ function wifi_setup.setup_wifi(after_connect)
   end
 end
 
-function wifi_setup.connect(callback)
-  wifi.sta.connect(callback)
-end
 return wifi_setup
